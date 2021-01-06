@@ -37,7 +37,7 @@ export default function Login () {
  // try {
     // Post Data to external API
 
-    if (username_or_email === "") {
+    if (username === "") {
       setError("Please specify your username or email!")
       return
     }
@@ -112,7 +112,7 @@ export default function Login () {
           />
           <br />  
           <input type="text" placeholder="Last Name"
-          value={last_name1}
+          value={last_name}
           onChange={(e)=>setLast_name(e.target.value)}
           />
           <br />  
