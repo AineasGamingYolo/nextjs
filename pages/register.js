@@ -112,7 +112,7 @@ export default function Login () {
           />
           <br />  
           <input type="text" placeholder="Last Name"
-          value={last_name}
+          value={last_name1}
           onChange={(e)=>setLast_name(e.target.value)}
           />
           <br />  
